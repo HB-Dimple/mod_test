@@ -1,0 +1,14 @@
+--to get own public and private key--
+<iq type='get' id='purple5798134'>
+<query xmlns='jabber:e2eencryption' />
+</iq>
+
+--to get group public and private key--
+<iq type='get' id='purple5798134'>
+<query xmlns='jabber:e2eencryption' group_jid='room1@conference.192.168.36.1' />
+</iq>
+
+--to get other user public key--
+<iq type='get' id='purple5798134'>
+<query xmlns='jabber:e2eencryption' other_jid='test2@192.168.36.1' />
+</iq>

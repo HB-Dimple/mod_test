@@ -1,0 +1,5 @@
+author: "kalpesh gohel"
+category: "rsa"
+summary: "Ejabberd end to end encryption using rsa and AES algorighm"
+home: "https://github.com/k9428/mod_rsa"
+url: "https://github.com/k9428/mod_rsa"
