@@ -1,15 +1,18 @@
 -module(mod_test).
 
--include("logger.hrl").
--include("xmpp.hrl").
--include("mod_roster.hrl").
+-behaviour(gen_mod). 
 
--behaviour(gen_mod).
 
 -export([start/2, 
 	stop/1, 
 	process_iq_now/1,
 	user_exists/2]).
+
+
+-include("logger.hrl").
+-include("xmpp.hrl").
+-include("mod_roster.hrl").
+
 
 -export([md5_hex/1]).
 
